@@ -8,3 +8,4 @@ Construir um recurso de cadastro de pessoa
   * Correção no arquivo POM alterando Dependency driver de SQL Server para MySQL 
 - [X] Adicionar Anotação Embedded na Classe pessoa campo endereço, criar a classe Endereco, alterar o script SQL import.sql
 - [X] Adicionar um campo data de cadastro; 
+- [X] Criando Classe de Serviço e Controller Pessoa;
