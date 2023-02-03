@@ -40,6 +40,10 @@ public class PessoaService {
 				.orElseThrow(() -> new EmptyResultDataAccessException(1));
 		return pessoaSalva;
 	}
+
+	public void deleteById(Long id) {
+		pessoaRepository.deleteById(id);
+	}
 	
 	
 

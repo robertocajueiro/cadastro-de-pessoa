@@ -18,6 +18,8 @@ Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceit
 - [X] Criar o recurso para lista todas as pessoas - 
 - [X] Criar o recurso para lista todas as pessoas
 
-- [X] Criar o recurso para atualizar - PUT
+- [X] Criar o recurso para atualizar Pessoa- PUT
 
 ![image](https://user-images.githubusercontent.com/28118980/216682482-4c446747-3e55-4477-a4cf-7e03db18b940.png)
+
+- [X] Criar o recurso delete para excluir uma Pessoa
