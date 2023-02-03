@@ -2,8 +2,8 @@
 
 Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os coneceitos Restful 
 
-Data de entrega: 03/02/2023
-Cliente: Pedro Marins
+- Data de entrega: 03/02/2023
+- Cliente: Pedro Marins
 
 ### Tarefas:
 
@@ -19,3 +19,5 @@ Cliente: Pedro Marins
  ![image](https://user-images.githubusercontent.com/28118980/216497969-741ec8e0-a9d0-49d6-b744-03afe43cce7d.png)
  
 - [X] Criar o recurso para lista todas as pessoas
+
+...
