@@ -1,5 +1,6 @@
 package com.roberto.cadastropessoa.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.hibernate.ObjectNotFoundException;
@@ -19,6 +20,10 @@ public class PessoaService {
 		Optional<Pessoa> obj = pessoaRepository.findById(id);
 		return obj.orElseThrow(() -> new ObjectNotFoundException(
 				"Objeto não encontrado! Id: " + id + ", Tipo: " + Pessoa.class.getName(), obj));
+	}
+
+	public List<Pessoa> findAll() {
+		return pessoaRepository.findAll();
 	}
 	
 	
