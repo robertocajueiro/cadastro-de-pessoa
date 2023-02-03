@@ -9,3 +9,4 @@ Construir um recurso de cadastro de pessoa
 - [X] Adicionar Anotação Embedded na Classe pessoa campo endereço, criar a classe Endereco, alterar o script SQL import.sql
 - [X] Adicionar um campo data de cadastro; 
 - [X] Criando Classe de Serviço e Controller Pessoa;
+- [X] Criando o recurso pessoa buscando por ID;
