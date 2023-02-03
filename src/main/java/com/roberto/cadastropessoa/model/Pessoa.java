@@ -23,6 +23,8 @@ public class Pessoa {
 	
 	private String cpf;
 	
+	private Boolean status;
+	
 	private String endereco;
 
 }

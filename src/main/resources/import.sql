@@ -1,0 +1,2 @@
+INSERT INTO tbl_pessoa (id, nome, cpf, status, endereco) VALUES (1, 'Roberto Cajueiro', '82864429039', true, 'Rua xbto numero 200');
+INSERT INTO tbl_pessoa (id, nome, cpf, status, endereco) VALUES (2, 'Lucas Batista', '94140630051', true, 'Rua Fulano de tal numero 200');
