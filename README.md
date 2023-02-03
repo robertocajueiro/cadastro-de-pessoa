@@ -1,6 +1,6 @@
 # cadastro-de-pessoa
 
-Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os coneceitos Restful 
+Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceitos Restful 
 
 - Data de entrega: 03/02/2023
 - Cliente: Pedro Marins
