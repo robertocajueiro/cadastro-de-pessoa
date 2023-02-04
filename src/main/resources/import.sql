@@ -1,3 +1,3 @@
 INSERT INTO tbl_pessoa (id, nome, cpf, data_cadastro, status, logradouro, numero, complemento, bairro, cep, cidade, estado) VALUES (1, 'Roberto Cajueiro', '82864429039', '2023-02-02', true, 'Rua xbto', '246', 'Bloco 10 apto 101', 'Candeias','54430000', 'Recife', 'Pernambuco');
 
-INSERT INTO tbl_pessoa (id, nome, cpf, data_cadastro, status, logradouro, numero, complemento, bairro, cep, cidade, estado) VALUES (2, 'Lucas Batista', '94140630051','2023-02-02', true, 'Rua xbto', '246', 'Bloco 10 apto 101', 'Candeias', '54430000', 'Recife', 'Pernambuco');
+INSERT INTO tbl_pessoa (id, nome, cpf, data_cadastro, status, logradouro, numero, complemento, bairro, cep, cidade, estado) VALUES (2, 'Lucas Batista', '94140630051', '2023-02-02', true, 'Rua xbto', '246', 'Bloco 10 apto 101', 'Candeias', '54430000', 'Recife', 'Pernambuco');
