@@ -24,7 +24,7 @@ Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceit
 
 ![image](https://user-images.githubusercontent.com/28118980/216682482-4c446747-3e55-4477-a4cf-7e03db18b940.png)
 
-- [X] Criar o recurso delete para excluir uma Pessoa voltando uma msg 204 No content
+- [X] Criar o recurso delete para excluir uma Pessoa retornando uma mensagem 204 No content
 
 ![image](https://user-images.githubusercontent.com/28118980/216687143-af0de79e-4719-41b0-ae08-de3dd54aa817.png)
 

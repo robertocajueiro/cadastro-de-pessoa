@@ -1,6 +1,7 @@
 package com.roberto.cadastropessoa.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.roberto.cadastropessoa.model.Pessoa;
+import com.roberto.cadastropessoa.repository.PessoaRepository;
 import com.roberto.cadastropessoa.service.PessoaService;
 
 @RestController
@@ -24,10 +26,13 @@ public class PessoaController {
 	@Autowired
 	private PessoaService pessoaService;
 	
-	@GetMapping(value = "/{id}")
-	public ResponseEntity<Pessoa> findById(@PathVariable Long id){
-		Pessoa pessoa = this.pessoaService.findById(id);
-		return ResponseEntity.ok().body(pessoa);
+	@Autowired
+	private PessoaRepository pessoaRepository;
+	
+	@GetMapping("/{id}")
+	public ResponseEntity<Pessoa> buscarPeloCodigo(@PathVariable Long id) {
+		Optional<Pessoa> pessoa = pessoaRepository.findById(id);
+		return pessoa.isPresent() ? ResponseEntity.ok(pessoa.get()) : ResponseEntity.notFound().build();
 	}
 	
 	@GetMapping
