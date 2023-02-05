@@ -16,11 +16,11 @@ Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceit
 
 ![image](https://user-images.githubusercontent.com/28118980/216687652-433d237c-8246-47f7-ae57-2032e101fd9d.png)
 
-- [X] Criar o recurso para lista todas as pessoas.
+- [X] Criar o recurso para listar todas as pessoas.
  
 ![image](https://user-images.githubusercontent.com/28118980/216686866-8f94cb0a-b9ea-447f-8d6b-7547092ebeb6.png)
 
-- [X] Criar o recurso para atualizar Pessoa- PUT
+- [X] Criar o recurso para atualizar Pessoa- PutMapping
 
 ![image](https://user-images.githubusercontent.com/28118980/216682482-4c446747-3e55-4477-a4cf-7e03db18b940.png)
 
@@ -32,4 +32,4 @@ Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceit
 
 ![image](https://user-images.githubusercontent.com/28118980/216848268-4ee97ffc-57fd-4d5a-86b4-2467dbbe6aa7.png)
 
-
+- [X] Adicionando Anotation @Valid para validar a persistencia dos dados
