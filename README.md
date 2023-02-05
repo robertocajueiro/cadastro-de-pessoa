@@ -1,4 +1,4 @@
-# cadastro-de-pessoa
+# Cadastro de uma Pessoa usando um Recurso Rest
 
 Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceitos Restful 
 
