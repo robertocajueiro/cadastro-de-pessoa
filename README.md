@@ -28,3 +28,8 @@ Construir um CRUD cadastro de pessoa utilizando Spring Boot aplicando os conceit
 
 ![image](https://user-images.githubusercontent.com/28118980/216687143-af0de79e-4719-41b0-ae08-de3dd54aa817.png)
 
+- [X] Criar o recurso post para salvar uma pessoa retornando a msg 201 created
+
+![image](https://user-images.githubusercontent.com/28118980/216848268-4ee97ffc-57fd-4d5a-86b4-2467dbbe6aa7.png)
+
+
