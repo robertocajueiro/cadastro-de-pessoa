@@ -2,6 +2,8 @@ package com.roberto.cadastropessoa.model;
 
 import java.time.LocalDate;
 
+import org.hibernate.validator.constraints.br.CPF;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Column;
@@ -12,6 +14,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -27,10 +30,13 @@ public class Pessoa {
 	@EqualsAndHashCode.Include
 	private Long id;
 	
-	@NotNull
+	@Column(nullable = false, length = 150)
+	@NotEmpty(message = "{campo.nome.obrigatorio}")
 	private String nome;
 	
-	@NotNull
+	@Column(nullable = false, length = 11)
+	@NotNull(message = "{campo.cpf.vazio}")
+	@CPF(message = "{campo.cpf.obrigatorio}")
 	private String cpf;
 	
 	@NotNull

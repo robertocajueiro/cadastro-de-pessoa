@@ -39,7 +39,7 @@ public class PessoaController {
 	private ApplicationEventPublisher publisher;
 
 	@PostMapping
-	public ResponseEntity<Pessoa> create(@Valid @RequestBody Pessoa pessoa, HttpServletResponse response) {
+	public ResponseEntity<Pessoa> create(@RequestBody @Valid Pessoa pessoa, HttpServletResponse response) {
 		Pessoa pessoaSalva = pessoaRepository.save(pessoa);
 
 		publisher.publishEvent(new RecursoCriadoEvent(this, response, pessoaSalva.getId()));
